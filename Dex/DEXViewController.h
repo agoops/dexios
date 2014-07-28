@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DEXViewController : UIViewController
+NSMutableArray *textviews;
+NSString *baseurl;
+NSString *appid1;
+NSString *appid2 ;
+NSString *mobileServiceAppKey;
+
+@interface DEXViewController : UIViewController <UITextFieldDelegate>
+
+
 
 @end

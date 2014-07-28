@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE4E8855198039F700F03D16 /* DEXConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E8854198039F700F03D16 /* DEXConfig.m */; };
 		DE6EB373197C738300660BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6EB372197C738300660BCA /* Foundation.framework */; };
 		DE6EB375197C738400660BCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6EB374197C738400660BCA /* CoreGraphics.framework */; };
 		DE6EB377197C738400660BCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6EB376197C738400660BCA /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE4E8853198039F700F03D16 /* DEXConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEXConfig.h; sourceTree = "<group>"; };
+		DE4E8854198039F700F03D16 /* DEXConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEXConfig.m; sourceTree = "<group>"; };
 		DE6EB36F197C738300660BCA /* Dex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6EB372197C738300660BCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE6EB374197C738400660BCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				DE6EB38B197C738400660BCA /* DEXViewController.m */,
 				DE6EB38D197C738400660BCA /* Images.xcassets */,
 				DE6EB379197C738400660BCA /* Supporting Files */,
+				DE4E8853198039F700F03D16 /* DEXConfig.h */,
+				DE4E8854198039F700F03D16 /* DEXConfig.m */,
 			);
 			path = Dex;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				DE6EB383197C738400660BCA /* DEXAppDelegate.m in Sources */,
 				DE6EB37F197C738400660BCA /* main.m in Sources */,
 				DE6EB38C197C738400660BCA /* DEXViewController.m in Sources */,
+				DE4E8855198039F700F03D16 /* DEXConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +481,7 @@
 				DE6EB3A6197C738400660BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE6EB3A7197C738400660BCA /* Build configuration list for PBXNativeTarget "DexTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +490,7 @@
 				DE6EB3A9197C738400660BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
